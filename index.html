@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <title>My Learning Languages list </title>
+</head>
+<body>
+    <h1>Learning Languages</h1>
+    <!-- Ordered List with Roman Numerals -->
+<ol type="I">
+    <li>Hypertext mark-up Language</li>
+    <li>python</li>
+    <li>Cascading styling Sheet</li>
+    <li>Javascript</li>
+</ol>
+<img src="https://cdn.pixabay.com/photo/2015/09/09/21/12/monitor-933392_1280.jpg" alt="coding Photo from Pexels" width="500px"length="400px" />
+<!-- Table of 5 Contacts -->
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>John Doe</td>
+            <td>123 Main St, Anytown, USA</td>
+            <td>123-456-7890</td>
+            <td>john.doe@example.com</td>
+        </tr><br>
+        <!-- Repeat for other contacts -->
+        <!-- ... -->
+    </tbody>
+</table>
+
+<!-- Registration Form -->
+<form id="registrationForm" action="/submit" method="post">
+    <!-- Name Field with Placeholder and Required Attribute -->
+    <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+    </div>
+
+    <!-- Email Field with Placeholder, Required Attribute and Email Validation -->
+    <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+    </div>
+
+    <!-- Password Field with Placeholder, Required Attribute -->
+    <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="your password" required>
+    </div>
+
+    <!-- Dropdown with Options -->
+    <div>
+        <label for="gender">Gender</label>
+        <select id="gender" name="gender" required>
+            <option value="">Select Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+    </div>
+
+    <!-- Radio Buttons -->
+    <div>
+        <label>
+            <input type="radio" id="radio1" name="radio" value="option1"> Option 1
+        </label>
+        <label>
+            <input type="radio" id="radio2" name="radio" value="option2"> Option 2
+        </label>
+    </div>
+
+    <!-- Checkboxes -->
+    <div>
+        <label>
+            <input type="checkbox" id="checkbox1" name="checkbox1" value="option1"> Option 1
+        </label>
+        <label>
+            <input type="checkbox" id="checkbox2" name="checkbox2" value="option2"> Option 2
+        </label>
+    </div>
+
+    <!-- Date Picker Field -->
+    <div>
+        <label for="date">Date of Birth</label>
+        <input type="date" id="date" name="date" required>
+    </div>
+
+    <!-- Submit Button -->
+    <button type="submit">Register</button>
+</form>
+
+</body>
+</html>
